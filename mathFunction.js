@@ -1,7 +1,7 @@
 function mathFunction(a, b, c) {
     if (Number.isInteger(a) && Number.isInteger(b) && Number.isInteger(c)) {
         var none = true;
-        var result = "";
+        var result = '';
 
         if (a + b == c) {
             none = false;
